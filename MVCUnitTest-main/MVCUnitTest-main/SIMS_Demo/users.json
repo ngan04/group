@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "cuong",
+    "Pass": "123@123",
+    "Role" : "Admin"
+  },
+  {
+    "Id": 2,
+    "Name": "linh",
+    "Pass": "111",
+    "Role": "Teacher"
+  },
+  {
+    "Id": 3,
+    "Name": "la",
+    "Pass": "222",
+    "Role": "Student"
+  }
+]

@@ -1,0 +1,30 @@
+﻿@model SIMS_Demo.Models.Course
+<h1>Edit Course</h1>
+
+<form asp-action="Edit">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Teacher" class="control-label"></label>
+        <input asp-for="Teacher" class="form-control" />
+        <span asp-validation-for="Teacher" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="RoomNumber" class="control-label"></label>
+        <input asp-for="RoomNumber" class="form-control" />
+        <span asp-validation-for="RoomNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Time" class="control-label"></label>
+        <input asp-for="Time" class="form-control" />
+        <span asp-validation-for="Time" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
+
+<a asp-action="Index">Back to List</a>

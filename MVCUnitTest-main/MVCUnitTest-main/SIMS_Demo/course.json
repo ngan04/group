@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Mathematics",
+    "Teacher": "John Doe",
+    "RoomNumber": "101",
+    "Time": "2024-04-11T09:00:00"
+  },
+  {
+    "Id": 2,
+    "Name": "Science",
+    "Teacher": "Jane Smith",
+    "RoomNumber": "102",
+    "Time": "2024-04-11T10:00:00"
+  },
+  {
+    "Id": 3,
+    "Name": "History",
+    "Teacher": "Bob Johnson",
+    "RoomNumber": "103",
+    "Time": "2024-04-11T11:00:00"
+  }
+]
